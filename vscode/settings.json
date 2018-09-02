@@ -1,0 +1,49 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "'Operator Mono Lig Light', Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.colorTheme": "Level Up",
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type" //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
