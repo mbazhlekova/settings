@@ -1,13 +1,13 @@
 {
   "workbench.iconTheme": "vscode-icons",
-  "editor.fontFamily": "'Operator Mono Lig Light', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Dank Mono', Consolas, 'Courier New', monospace",
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
-  "workbench.colorTheme": "Level Up",
+  "workbench.colorTheme": "Dracula Soft",
   "editor.formatOnSave": true,
   "javascript.format.enable": false,
   "editor.fontWeight": "400",
